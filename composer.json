@@ -1,0 +1,28 @@
+{
+    "name": "yii2-tools/yii2-crud",
+    "description": "Set of basic CRUD actions for Yii2 Applications",
+    "keywords": [
+        "yii2",
+        "yii2-tools",
+        "extension"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/yii2-tools/yii2-crud",
+    "authors": [
+        {
+            "name": "Pavel Petrov",
+            "email": "itnelo@gmail.com",
+            "homepage": "https://github.com/itnelo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\tools\\crud\\": ""
+        }
+    }
+}
